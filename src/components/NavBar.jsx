@@ -25,7 +25,6 @@ function NavBar() {
         {navItems.map((item, index) => (
             <li key={index}>
               <a href={`#${item.path}`} className='text-white text-xl font-poppins tracking-wider'> {item.link} </a>
-
             </li>
           ))}
           </ul>

@@ -10,7 +10,7 @@ module.exports = {
         "secondary": "#80bc7c",
         "tertiary": "#C16E49",
         "white": "#EEF0E5",
-        "gray": "#e0dcdc",
+        "gray": "#f8f4f4",
       },
       fontFamily: {
         "poppins": ['Poppins' , 'sans-serif'],
