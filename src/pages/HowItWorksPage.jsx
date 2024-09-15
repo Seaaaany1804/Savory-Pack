@@ -14,6 +14,7 @@ function HowItWorksPage() {
       </div>
 
       <div className='flex justify-center space-x-40'> 
+
         {/* First Card View */}
         <div className='bg-[#FFFFFF] px-[30px] py-[70px] rounded-[25px] text-center flex flex-col items-center '>
           <img src={chooseMeals} alt="Choose Your Meals" className='w-[350px]' />
@@ -22,7 +23,7 @@ function HowItWorksPage() {
         </div>
 
         {/* Second Card View */}
-        <div className='bg-[#FFFFFF] px-[30px] py-[100px] mt-20 rounded-[50px] text-center flex flex-col items-center'>
+        <div className='bg-[#FFFFFF] px-[30px] py-[120px] mt-20 rounded-[50px] text-center flex flex-col items-center'>
         <img src={weDeliver} alt="We Deliver" className='w-[300px] ' />
           <h1 className='text-[24px] font-semibold font-poppins'> We Deliver It To You </h1>
           <h1 className='mt-2 tracking-wider font-poppins text-[20px]'> Choose your dates for delivery </h1>
@@ -34,8 +35,8 @@ function HowItWorksPage() {
           <h1 className='text-[24px] font-semibold font-poppins'> Cook & Enjoy </h1>
           <h1 className='mt-2 tracking-wider font-poppins text-[20px]'> Eat your freshly cooked meal </h1>
         </div>
-
       </div>
+      
     </div>
   )
 }

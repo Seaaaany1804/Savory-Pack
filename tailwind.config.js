@@ -11,6 +11,7 @@ module.exports = {
         "tertiary": "#C16E49",
         "white": "#EEF0E5",
         "gray": "#f8f4f4",
+        "lightgray": "#b0acac",
       },
       fontFamily: {
         "poppins": ['Poppins' , 'sans-serif'],

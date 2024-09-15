@@ -22,11 +22,11 @@ function NavBar() {
           
         <div className='flex justify-center'>
           <ul className='flex space-x-14'>
-        {navItems.map((item, index) => (
-            <li key={index}>
-              <a href={`#${item.path}`} className='text-white text-xl font-poppins tracking-wider'> {item.link} </a>
-            </li>
-          ))}
+            {navItems.map((item, index) => (
+                <li key={index}>
+                  <a href={`#${item.path}`} className='text-white text-xl font-poppins tracking-wider'> {item.link} </a>
+                </li>
+              ))}
           </ul>
         </div>
 

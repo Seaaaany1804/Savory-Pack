@@ -1,10 +1,11 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
+import '../pages/css/background.css'
 import foodPan from '../assets/foodpan.png'
 
 const HomePage = () => {
   return (
-    <div className='h-screen bg-black'>
+    <div id='background' className='h-screen'>
       <NavBar/>
       <div className='grid grid-cols-2'>
         <div className='flex flex-col justify-center items-center h-[80vh]'>

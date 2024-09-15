@@ -10,7 +10,7 @@ function AboutPage() {
         <div>
         <div className='relative'>
             <img src={leftPlant} alt="Left Plant" className='absolute' />
-            <img src={foodBackground} alt="" className='absolute rounded-l-full brightness-[0.1] right-[110px] top-[220px] w-[500px] h-[500px]'/>
+            <img src={foodBackground} alt="" className='absolute rounded-l-full brightness-[0.3] right-[110px] top-[220px] w-[500px] h-[500px]'/>
             <img src={foodBowl} alt="Left Plant" className='absolute right-[7px] top-[170px]' />
           </div>
 
