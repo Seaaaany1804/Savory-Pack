@@ -1,5 +1,7 @@
 import './App.css';
 import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+import FAQsPage from './pages/FAQsPage';
 import HomePage from './pages/HomePage';
 import HowItWorksPage from './pages/HowItWorksPage';
 import MenuPage from './pages/MenuPage';
@@ -15,6 +17,8 @@ function App() {
       <WhyGustoMeals/>
       <MenuPage/>
       <ReviewsPage/>
+      <FAQsPage/>
+      <ContactPage/>
     </div>
   );
 }
