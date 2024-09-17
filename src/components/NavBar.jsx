@@ -19,7 +19,8 @@ function NavBar() {
           <img src={sLogo} alt="Savory Pack Logo" className='w-[150px]'/>
         </div>
         
-          
+
+          {/* Links */}
         <div className='flex justify-center'>
           <ul className='flex space-x-14'>
             {navItems.map((item, index) => (
