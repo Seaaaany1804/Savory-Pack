@@ -12,6 +12,7 @@ function NavBar() {
     { link: "Contact", path: "contact" },
   ]
 
+  // Comment
   return (
     <div>
       <div className='flex justify-center space-x-[280px] items-center h-1/6 px-[120px]'>
