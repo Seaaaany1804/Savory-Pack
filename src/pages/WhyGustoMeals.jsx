@@ -1,7 +1,7 @@
 import React from 'react'
 import '../pages/css/background.css'
 import dash from '../assets/dash.png'
-import { LuCheckCircle } from "react-icons/lu";
+import { TiTick } from "react-icons/ti";
 import { FaRegEye } from "react-icons/fa";
 import { LiaCommentSlashSolid } from "react-icons/lia";
 import { MdOutlineStarBorderPurple500 } from "react-icons/md";
@@ -25,7 +25,7 @@ function WhyGustoMeals() {
 
         <div className='flex flex-wrap justify-center gap-[120px] px-[100px] mt-[150px]'>
           <div className='flex space-x-4 items-center w-[400px]'>
-            <LuCheckCircle className=' text-black text-[60px] p-3 rounded-full bg-white'/>
+            <TiTick className=' text-black text-[60px] p-3 rounded-full bg-white'/>
             <h1 className='text-white text-[24px] font-poppins tracking-wider'> Easy and Convenient </h1>
           </div>
 
